@@ -88,6 +88,8 @@
    <img width="1147" height="420" alt="image" src="https://github.com/user-attachments/assets/85e9479a-279e-4f3a-a769-2a41d717a527" />
 
 
+---
+   
    ## 7. Test policy by attempting weak password reset
 
    
@@ -98,3 +100,58 @@
 ---
 
  
+# Task 3: Backup Configuration for Web Servers
+
+ ### Steps
+
+   ## 1. Create Backup Script
+     created backup_webservers.sh
+
+     chmod +x backup_web.sh
+     
+  <img width="841" height="543" alt="image" src="https://github.com/user-attachments/assets/fedccc4d-8f16-4552-84a3-13392ae462c3" />
+
+
+---
+
+
+   ## 2. Execution of the script
+   
+     ./backup_webservers.sh
+  
+  <img width="891" height="140" alt="image" src="https://github.com/user-attachments/assets/5c3e89cf-2727-4e8a-a180-af1fe247b546" />
+
+
+---
+
+   ## 3. Schedule with Cron
+
+      crontab -e (It was not working)
+
+      yum install cronie -y
+
+      systemctl enable crond
+
+      systemctl start crond
+
+      systemctl status crond
+
+<img width="1380" height="407" alt="image" src="https://github.com/user-attachments/assets/cf9fb5b9-a534-43a8-ac3c-681cb49428d2" />
+
+
+      
+<img width="447" height="55" alt="image" src="https://github.com/user-attachments/assets/defda0b2-82d8-41d7-ac20-5cb39c5d931d" />
+
+  
+---
+
+   ## 4. Verify Backups
+     tar -tzf "nginx_backup_2025-09-08.tar.gz" | head -20
+ <img width="1028" height="971" alt="image" src="https://github.com/user-attachments/assets/b064314e-266b-488b-888f-a65a9afa0eb1" />
+
+
+---
+
+   
+
+  
