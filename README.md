@@ -1,11 +1,10 @@
-<img width="788" height="392" alt="image" src="https://github.com/user-attachments/assets/573668c1-c967-4651-abb6-3e2e4e5cb879" /># Assignment-on-Testing-Linux-and-Servers
+# Assignment-on-Testing-Linux-and-Servers
+
 
 # Task 1: System Monitoring Setup
 
 
----
-
-### Steps
+### Steps:
 
 ## 1. Installation
  sudo yum install htop -y
@@ -39,7 +38,8 @@
 # Task 2: User Management and Security
 
 
-  ### Steps
+  ### Steps:
+  
 
    ## 1. Create User Accounts 
    
@@ -125,7 +125,7 @@
  
 # Task 3: Backup Configuration for Web Servers
 
- ### Steps
+ ### Steps:
 
    ## 1. Create Backup Script
      created backup_webservers.sh
