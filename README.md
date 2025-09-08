@@ -52,9 +52,9 @@
 
    ## 3. Password Policy Setup
 
-      chage -M 90 -W 7 sarah
+      chage -M 30 -W 7 sarah
 
-      chage -M 90 -W 7 mike
+      chage -M 30 -W 7 mike
 
 ---
 
@@ -64,7 +64,8 @@
       
       chage -l mike
 
-  <img width="1096" height="559" alt="image" src="https://github.com/user-attachments/assets/547ca28e-eb64-44fe-b11a-c03c04235331" />
+ <img width="857" height="211" alt="image" src="https://github.com/user-attachments/assets/b4b32421-de07-4fb1-bb5f-80c834bda379" />
+
       
 
 ---
