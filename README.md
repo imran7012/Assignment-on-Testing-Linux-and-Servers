@@ -1,4 +1,4 @@
-# Assignment-on-Testing-Linux-and-Servers
+<img width="788" height="392" alt="image" src="https://github.com/user-attachments/assets/573668c1-c967-4651-abb6-3e2e4e5cb879" /># Assignment-on-Testing-Linux-and-Servers
 
 # Task 1: System Monitoring Setup
 
@@ -10,7 +10,30 @@
 ## 1. Installation
  sudo yum install htop -y
 
+---
 
+
+## 2. Create script for monitoring and execution.
+  vi monitor.sh
+  
+  chmod +x monitor.sh
+
+  ./monitor.sh
+  
+
+<img width="788" height="392" alt="image" src="https://github.com/user-attachments/assets/49cc478a-309c-44aa-80df-b7d0023436d3" />
+
+
+---
+
+## 3. OutPut
+
+<img width="735" height="872" alt="image" src="https://github.com/user-attachments/assets/57d2388e-bdcb-42e9-bf0c-d644b84b0dde" />
+
+
+ 
+
+---
 
 
 # Task 2: User Management and Security
